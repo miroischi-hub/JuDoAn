@@ -1,0 +1,56 @@
+---
+- name: Jupyter Plattform mit Docker bereitstellen
+  hosts: jupyter
+  become: true
+
+  vars:
+    jupyter_token: "schule123"
+    notebook_dir: "/opt/jupyter/notebooks"
+
+  tasks:
+
+    - name: System aktualisieren
+      apt:
+        update_cache: yes
+
+    - name: Benötigte Pakete installieren
+      apt:
+        name:
+          - ca-certificates
+          - curl
+          - gnupg
+          - python3-pip
+        state: present
+
+    - name: Docker installieren
+      apt:
+        name:
+          - docker.io
+        state: present
+
+    - name: Docker starten
+      service:
+        name: docker
+        state: started
+        enabled: true
+
+    - name: Docker Python Modul installieren
+      pip:
+        name: docker
+
+    - name: Notebook Verzeichnis erstellen
+      file:
+        path: "{{ notebook_dir }}"
+        state: directory
+        mode: "0775"
+
+    - name: Jupyter Container starten
+      shell: |
+        docker rm -f jupyter || true
+        docker run -d \
+          --name jupyter \
+          --restart always \
+          -p 8888:8888 \
+          -v {{ notebook_dir }}:/home/jovyan/work \
+          quay.io/jupyter/minimal-notebook:latest \
+          start-notebook.py --NotebookApp.token='{{ jupyter_token }}'
