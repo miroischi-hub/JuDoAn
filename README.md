@@ -10,7 +10,7 @@ Im Rahmen des Moduls **Netzwerkbetriebssysteme** wurde eine automatisierte Berei
 
 
 
-Die Infrastruktur wird mit *\*Vagrant\*\* und *\*VirtualBox\*\* erstellt. Anschließend wird die virtuelle Maschine mittels \*\*Ansible\*\* konfiguriert. Docker wird automatisch installiert und ein Jupyter-Notebook-Container bereitgestellt.
+Die Infrastruktur wird mit **Vagrant** und **VirtualBox** erstellt. Anschließend wird die virtuelle Maschine mittels **Ansible** konfiguriert. Docker wird automatisch installiert und ein Jupyter-Notebook-Container bereitgestellt.
 
 
 
@@ -58,13 +58,13 @@ Windows Host
 
 └── Ubuntu VM
 
-&#x20;    │
+          │
 
-&#x20;    ├── Ansible
+          ├── Ansible
 
-&#x20;    ├── Docker
+          ├── Docker
 
-&#x20;    └── Jupyter Container
+          └── Jupyter Container
 
 ```
 
