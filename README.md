@@ -1,4 +1,4 @@
-\# Automatisierte Bereitstellung einer Jupyter-Plattform mit Vagrant, Ansible und Docker
+# Automatisierte Bereitstellung einer Jupyter-Plattform mit Vagrant, Ansible und Docker
 
 
 
@@ -14,33 +14,33 @@ Die Infrastruktur wird mit \*\*Vagrant\*\* und \*\*VirtualBox\*\* erstellt. Ansc
 
 
 
-\---
+---
 
 
 
-\## Verwendete Technologien
+## Verwendete Technologien
 
 
 
-\* Ubuntu 22.04 LTS
+* Ubuntu 22.04 LTS
 
-\* Vagrant
+* Vagrant
 
-\* VirtualBox
+* VirtualBox
 
-\* Ansible
+* Ansible
 
-\* Docker
+* Docker
 
-\* Jupyter Notebook
-
-
-
-\---
+* Jupyter Notebook
 
 
 
-\## Architektur
+---
+
+
+
+## Architektur
 
 
 
@@ -70,11 +70,11 @@ Windows Host
 
 
 
-\---
+---
 
 
 
-\## Projektstruktur
+## Projektstruktur
 
 
 
@@ -102,11 +102,11 @@ jupyter-ansible-vagrant/
 
 
 
-\---
+---
 
 
 
-\## Virtuelle Maschine starten
+## Virtuelle Maschine starten
 
 
 
@@ -130,11 +130,11 @@ vagrant ssh
 
 
 
-\---
+---
 
 
 
-\## Ansible installieren
+## Ansible installieren
 
 
 
@@ -148,11 +148,11 @@ sudo apt install ansible -y
 
 
 
-\---
+---
 
 
 
-\## Docker Collection installieren
+## Docker Collection installieren
 
 
 
@@ -164,11 +164,11 @@ ansible-galaxy collection install community.docker
 
 
 
-\---
+---
 
 
 
-\## Playbook ausführen
+## Playbook ausführen
 
 
 
@@ -180,11 +180,11 @@ ansible-playbook -i ansible/inventory.ini ansible/playbook.yml
 
 
 
-\---
+---
 
 
 
-\## Docker prüfen
+## Docker prüfen
 
 
 
@@ -196,11 +196,11 @@ sudo docker ps
 
 
 
-\---
+---
 
 
 
-\## Zugriff auf Jupyter
+## Zugriff auf Jupyter
 
 
 
@@ -228,11 +228,11 @@ schule123
 
 
 
-\---
+---
 
 
 
-\## Automatisierungsablauf
+## Automatisierungsablauf
 
 
 
@@ -248,11 +248,11 @@ schule123
 
 
 
-\---
+---
 
 
 
-\## Ergebnis
+## Ergebnis
 
 
 
