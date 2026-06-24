@@ -6,11 +6,11 @@
 
 
 
-Im Rahmen des Moduls \*\*Netzwerkbetriebssysteme\*\* wurde eine automatisierte Bereitstellung einer Jupyter-Plattform umgesetzt.
+Im Rahmen des Moduls **Netzwerkbetriebssysteme** wurde eine automatisierte Bereitstellung einer Jupyter-Plattform umgesetzt.
 
 
 
-Die Infrastruktur wird mit \*\*Vagrant\*\* und \*\*VirtualBox\*\* erstellt. Anschließend wird die virtuelle Maschine mittels \*\*Ansible\*\* konfiguriert. Docker wird automatisch installiert und ein Jupyter-Notebook-Container bereitgestellt.
+Die Infrastruktur wird mit *\*Vagrant\*\* und *\*VirtualBox\*\* erstellt. Anschließend wird die virtuelle Maschine mittels \*\*Ansible\*\* konfiguriert. Docker wird automatisch installiert und ein Jupyter-Notebook-Container bereitgestellt.
 
 
 
