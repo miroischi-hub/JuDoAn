@@ -45,6 +45,8 @@ Die Infrastruktur wird mit **Vagrant** und **VirtualBox** erstellt. Anschließen
 
 
 ```text
+<img width="1458" height="1034" alt="image" src="https://github.com/user-attachments/assets/9d9c6185-ae7d-4e6f-8dfc-ca51550d8d6b" />
+
 
 Windows Host
 
