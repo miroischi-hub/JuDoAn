@@ -73,6 +73,7 @@ vagrant ssh
 
 ```
 
+<img width="833" height="816" alt="image" src="https://github.com/user-attachments/assets/5310640a-ab86-4ef2-908e-3b3d466c6a31" />
 
 
 ---
@@ -139,7 +140,7 @@ sudo docker ps
 
 ```
 
-
+<img width="1544" height="59" alt="image" src="https://github.com/user-attachments/assets/0e936afe-dbd3-4313-b888-ab0b20a12fcb" />
 
 ---
 
@@ -159,6 +160,7 @@ http://192.168.56.10:8888
 
 ```
 
+<img width="1741" height="1069" alt="image" src="https://github.com/user-attachments/assets/66acb1cf-7437-46b8-808a-ea67c24c8aa2" />
 
 
 Token:
@@ -171,6 +173,7 @@ schule123
 
 ```
 
+<img width="2554" height="1346" alt="image" src="https://github.com/user-attachments/assets/e82188e9-e49d-4381-8f01-ecdfd4a8297a" />
 
 
 ---
