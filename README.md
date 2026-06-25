@@ -42,6 +42,7 @@ Die Infrastruktur wird mit **Vagrant** und **VirtualBox** erstellt. Anschließen
 
 ## Architektur
 
+<img width="1458" height="1034" alt="image" src="https://github.com/user-attachments/assets/913bf858-049c-4328-a54d-ff903cb8e362" />
 
 
 ```text
