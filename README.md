@@ -47,43 +47,7 @@ Die Infrastruktur wird mit **Vagrant** und **VirtualBox** erstellt. Anschließen
 
 
 
-```
 
-
-
----
-
-
-
-## Projektstruktur
-
-
-
-```text
-
-jupyter-ansible-vagrant/
-
-│
-
-├── Vagrantfile
-
-├── ansible/
-
-│   ├── inventory.ini
-
-│   ├── playbook.yml
-
-│   └── requirements.yml
-
-│
-
-└── README.md
-
-```
-
-
-
----
 
 
 
