@@ -45,29 +45,7 @@ Die Infrastruktur wird mit **Vagrant** und **VirtualBox** erstellt. Anschließen
 <img width="1458" height="1034" alt="image" src="https://github.com/user-attachments/assets/913bf858-049c-4328-a54d-ff903cb8e362" />
 
 
-```text
-<img width="1458" height="1034" alt="image" src="https://github.com/user-attachments/assets/9d9c6185-ae7d-4e6f-8dfc-ca51550d8d6b" />
 
-
-Windows Host
-
-│
-
-├── VirtualBox
-
-├── Vagrant
-
-│
-
-└── Ubuntu VM
-
-          │
-
-          ├── Ansible
-
-          ├── Docker
-
-          └── Jupyter Container
 
 ```
 
